@@ -25,16 +25,12 @@ export function hw2q1() {
         output = Math.pow(2, temp);
         console.log(output);
 
-      }
-      if (continueSearch === 'No') {
+      } if (continueSearch === 'No') {
         i = -1000;
 
-      } else {
-
-        console.log("How did you get here?? ERROR INCORRECT VALUE ENTERED. Try Again.")
-        i = i - 1;
-
       }
+
+      
 
     }
 
